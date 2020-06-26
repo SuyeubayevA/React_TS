@@ -1,0 +1,83 @@
+.nav-wrapper{
+    display: flex;
+    
+}
+
+.navbar-ava{
+    width: 97px;
+    height: 97px;
+    background-color: #e20e12;
+}
+
+.main-card{
+    width: 47%;
+    height: 370px;
+    margin-right: 30px;
+    margin-top: 30px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    border: 1px solid #ffffff;
+    background-color: #eaeaea;
+    position: relative;
+}
+
+.main-card__lenta {
+    position: absolute;
+    left: 10px;
+    background-image: url(../img/lenta.png);
+    width: 27px;
+    height: 59px;
+}
+
+.main-card__line {
+    position: absolute;
+    top: 44px;
+    left: 50px;
+    background-color: #e20e12;
+    width: 88%;
+    height: 1px;
+}
+
+.main-card__title {
+    position: absolute;
+    top: 17px;
+    left: 50px;
+    width: 113px;
+    height: 17px;
+    text-shadow: 1px 2px 0 rgba(0, 0, 0, 0.06);
+    color: #e3000f;
+    font-family: "Arial MT";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.row {
+    display: flex;
+}
+
+.main-adv {
+    width: 167px;
+    height: 210px;
+    background-color: #eaeaea;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    position: relative;
+}
+
+.main-adv__title{
+    position: absolute;
+    bottom: 0;
+    width: 170px;
+    height: 36px;
+    padding-left: 15px;
+    color: #ffffff;
+    font-family: "Arial-BoldMT";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    background-color: #da0000;
+}
+
+@media only screen and (max-width: 600px) {
+
+  }

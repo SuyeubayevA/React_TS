@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import './fonts/Arial-BoldMT.otf'
+import './fonts/ArialMTStd-Medium.otf'
 
 ReactDOM.render(
   <React.StrictMode>
