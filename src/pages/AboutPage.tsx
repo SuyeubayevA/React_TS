@@ -35,7 +35,7 @@ export const AboutPage: React.FC = () => {
     },[])
 
     return(
-        <div className="body-container">
+        <div className="body-container-maps">
             <h1>О нас: </h1>
             <UsersList users={users}/>
         </div>

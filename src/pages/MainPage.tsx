@@ -11,7 +11,7 @@ export const MainPage: React.FC  = () => {
                     <MainPageCards titles={['Мои счета', 'Шаблоны']} row={4} />
                 </div>
                 <div className="body-container__right-sidebar" >
-                    <MainPageAdv titles={['Кредит Auto', 'Депозиты']} />
+                    <MainPageAdv titles={['Курс обмена:','Кредит Auto', 'Депозиты']} />
                 </div>
            </div>
         </Fragment>
