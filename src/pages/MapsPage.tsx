@@ -1,4 +1,4 @@
-import React, {Fragment} from 'react';
+import React from 'react';
 import { YMaps, Map, Placemark } from 'react-yandex-maps';
 
 export const MapsPage: React.FC  = () => {

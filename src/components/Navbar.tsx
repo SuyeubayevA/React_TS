@@ -8,7 +8,7 @@ export const Navbar: React.FC = () => {
                 <div className="navbar-ava"></div>
                 <div className="navbar-main_block">
                     <div className="navbar-text">My Account</div>
-                    <nav className="navbar navbar-expand navbar-light bg-light" style={{width:'1050px'}}>
+                    <nav className="navbar navbar-expand navbar-light bg-light" style={{width:'100%'}}>
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
                         </button>

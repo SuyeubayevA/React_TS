@@ -3,11 +3,11 @@
     justify-content: space-between;
     width: 87%;
     margin: 0 auto;
+    max-width: 1200px;
 }
 
 .navbar-ava{
     width: 9%;
-    height: 97px;
     background-color: #e20e12;
 }
 
@@ -71,8 +71,10 @@
 }
 
 .main-adv {
-    width: 167px;
+    width: 100%;
     height: 210px;
+    min-width: 168px;
+    max-width: 170px;
     background-color: #eaeaea;
     margin-bottom: 20px;
     position: relative;
@@ -81,7 +83,7 @@
 .main-adv__title{
     position: absolute;
     bottom: 0;
-    width: 170px;
+    width: 100%;
     height: 36px;
     padding-left: 15px;
     color: #ffffff;
@@ -92,6 +94,23 @@
     background-color: #da0000;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1100px) {
+    .card-row {
+        display: block;
+    }
+    .main-card{
+        width: 100%;
+    }
+  }
 
+  @media only screen and (max-width: 700px) {
+    .navbar-ava{
+        display: none
+    }
+    .navbar-main_block{
+        width: 100%;
+    }
+    .main-card{
+        margin-right: 0px;
+    }
   }
