@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import axios from 'axios'
 import { IUser } from '../interfaces';
-import { UsersList } from '../components/UsersList';
+import { UsersListCard } from '../components/UsersListCard';
 
 export const AboutPage: React.FC = () => {
     const [users, setUsers] = useState<IUser[]>([])
@@ -34,10 +34,20 @@ export const AboutPage: React.FC = () => {
         showUsers()
     },[])
 
+    if(users.length === 0){
+        return <div className="body-container-maps"><p className="center"> Списка пользователей нет </p></div>
+    }
+
     return(
         <div className="body-container-maps">
             <h1>О нас: </h1>
-            <UsersList users={users}/>
+            <ul>
+                {users.map(user=>{
+                    return(
+                        <UsersListCard user={user}/>
+                    ) 
+                })}
+            </ul>
         </div>
     )
 }

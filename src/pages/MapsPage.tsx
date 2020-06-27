@@ -19,6 +19,7 @@ export const MapsPage: React.FC  = () => {
                                     balloonContent: 'Mega Center Almaty',
                                     hintContent : 'Mega Center Almaty'
                                 }}
+                                modules={['geoObject.addon.balloon', 'geoObject.addon.hint']}
                             />
                             <Placemark 
                                 geometry={[43.230582, 76.945995]} 

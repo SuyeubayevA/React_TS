@@ -4,7 +4,21 @@
     width: 87%;
     margin: 0 auto;
     max-width: 1200px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
+}
+
+.bg-light{
+    background-color: transparent !important;
+    background-image: url(../img/navbar.png)  !important;
+    background-size: 100% 100%;
+}
+
+.dropdown:hover{
+    color: white !important;
+}
+
+.dropdown:hover>.dropdown-menu{
+    display: block;
 }
 
 .navbar-ava{
