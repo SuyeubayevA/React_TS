@@ -11,8 +11,8 @@ export const Dropdown: React.FC= () => {
     return(
         <>
             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                {items.map(item=>{
-                    return <Link className="dropdown-item" to="/">{item}</Link>
+                {items.map((item, i)=>{
+                    return <Link className="dropdown-item" to="/" key={i}>{item}</Link>
                 })}
             </div> 
             

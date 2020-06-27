@@ -11,7 +11,7 @@ export const Navbar: React.FC = () => {
                 <div className="navbar-main_block">
                     <div className="navbar-text">My Account</div>
                     <nav 
-                        className="navbar navbar-expand-sm navbar-light bg-light rounded" 
+                        className="navbar navbar-expand-md navbar-light bg-light rounded" 
                         >
                         <button className="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
                             <span className="navbar-toggler-icon"></span>
