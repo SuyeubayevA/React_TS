@@ -8,9 +8,16 @@ export const MainPageAdv: React.FC<MainAdvProps> = ({titles}) => {
                 
     return(
         <Fragment>
-            {titles.map(title => <div className="main-adv">
-                                        <div className='main-adv__title'>{title}</div>
-                                    </div>
+            {titles.map((title, i) => {
+                if(i===0){
+                    return <div className="main-adv">
+                                <div className='main-adv__title'>{title}</div>
+                            </div>
+                }
+                return <div className="main-adv main-adv-img">
+                            <div className='main-adv__title'>{title}</div>
+                        </div>
+            }
                 )}
         </Fragment>
     )

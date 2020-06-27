@@ -80,6 +80,11 @@
     position: relative;
 }
 
+.main-adv-img {
+    background-image: url(../img/img_adv_1.png);
+    background-size: cover;
+}
+
 .main-adv__title{
     position: absolute;
     bottom: 0;

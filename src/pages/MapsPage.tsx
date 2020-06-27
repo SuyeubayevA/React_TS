@@ -12,7 +12,7 @@ export const MapsPage: React.FC  = () => {
             <h1>Контакты: </h1>
             <YMaps>
                 <div>
-                    <Map defaultState={mapData} width='700px' height='700px'>
+                    <Map defaultState={mapData} width='100%' height='700px'>
                             <Placemark 
                                 geometry={[43.264165, 76.929910 ]} 
                                 properties={{
