@@ -11,7 +11,7 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar/>
-      <div className="container">
+      <div className="">
         <Switch>
           <Route component={MainPage} path="/" exact/>
           <Route component={AboutPage} path="/about" />

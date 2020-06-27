@@ -9,7 +9,7 @@ export const MainPageCards: React.FC<MainCardProps> = ({titles, row}) => {
     const cardRows = []
     for(let i=0; i< row; i++){ 
         cardRows.push(
-            <div className="row">
+            <div className="card-row">
                 {titles.map(title => <div className="main-card">
                                         <div  className='main-card__lenta'></div>
                                         <div className='main-card__line'></div>

@@ -35,9 +35,9 @@ export const AboutPage: React.FC = () => {
     },[])
 
     return(
-        <>
+        <div className="body-container">
             <h1>О нас: </h1>
             <UsersList users={users}/>
-        </>
+        </div>
     )
 }

@@ -8,11 +8,10 @@ export const MapsPage: React.FC  = () => {
      }
 
     return(
-        <Fragment>
-            <h1>О нас: </h1>
+        <div  className="body-container-maps">
+            <h1>Контакты: </h1>
             <YMaps>
                 <div>
-                    Карта
                     <Map defaultState={mapData} width='700px' height='700px'>
                             <Placemark 
                                 geometry={[43.264165, 76.929910 ]} 
@@ -28,6 +27,6 @@ export const MapsPage: React.FC  = () => {
                     </Map>
                 </div>
             </YMaps>
-        </Fragment>
+        </div>
     )
 }

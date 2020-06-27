@@ -1,15 +1,22 @@
 .body-container{
     display: flex;
-    width: 1200px
+    justify-content: space-between;
+    width: 87%;
+    margin: 0 auto;
 }
 
 .body-container__left-sidebar{
-    width: 83%
+    width: 85%
 }
 
 .body-container__right-sidebar{
     padding-top: 30px;
-    width: 17%
+    width: 15%
+}
+
+.body-container-maps{
+    width: 87%;
+    margin: 0 auto;
 }
 
 @media only screen and (max-width: 1100px) {
